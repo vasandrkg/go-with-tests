@@ -19,7 +19,7 @@ set paste
 set ruler
 set showmode
 
-set colorcolumn=80,120
+" set colorcolumn=80,120
 
 set exrc
 set secure
