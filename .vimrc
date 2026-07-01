@@ -21,7 +21,20 @@ set showmode
 
 set colorcolumn=80,120
 
+set exrc
+set secure
 
+set tabstop=4       " width of a tab character on screen
+set shiftwidth=4    " width used for indentation (>>, <<, auto-indent)
+set softtabstop=4   " width tab counts as when editing (backspace, etc.)
+set expandtab       " convert tabs to spaces when you press Tab
+
+
+inoremap ( ()<Left>
+inoremap [ []<Left>
+inoremap { {}<Left>
+inoremap " ""<Left>
+inoremap ' ''<Left>
 
 
 
