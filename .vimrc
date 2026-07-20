@@ -10,6 +10,7 @@ set relativenumber
 
 syntax on
 syntax enable
+filetype plugin indent on
 
 set path+=**
 set wildmenu
