@@ -25,6 +25,11 @@ let g:go_highlight_extra_types = 1
 let g:go_highlight_build_constraints = 1
 let g:go_fmt_command = "goimports"
 
+Plug 'luochen1990/rainbow'
+let g:rainbow_active = 1
+
+
+
 set path+=**
 set wildmenu
 
