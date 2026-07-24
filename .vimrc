@@ -39,6 +39,10 @@ set paste
 set ruler
 set showmode
 
+set laststatus=2
+set statusline=%f\ %l,%c
+
+
 " set colorcolumn=80,120
 
 set exrc
