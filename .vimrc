@@ -43,6 +43,11 @@ set laststatus=2
 set statusline=%f\ %l,%c
 
 
+" highlight StatusLine ctermfg=0 ctermbg=3 guifg=#000000 guibg=#ffcc00
+highlight StatusLine ctermfg=0 ctermbg=2 guifg=#000000 guibg=#00ff00
+
+
+
 " set colorcolumn=80,120
 
 set exrc
@@ -59,7 +64,6 @@ inoremap [ []<Left>
 inoremap { {}<Left>
 inoremap " ""<Left>
 inoremap ' ''<Left>
-
 
 
 
