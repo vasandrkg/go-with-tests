@@ -1,3 +1,7 @@
+Host *
+    ServerAliveInterval 60
+    ServerAliveCountMax 3
+
 # Munich. My EliteBook NoteBook Ubuntu 22.04 Linux Machine
 Host munich
   PreferredAuthentications publickey
