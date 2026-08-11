@@ -10,7 +10,7 @@ call plug#end()
 
 
 
-# Open some file with vim and run the following commands in EXECUTE mode:
+# Open some file with vim and run the following commands in COMMAND-LINE mode:
 
 :PlugInstall
 :GoInstallBinaries
