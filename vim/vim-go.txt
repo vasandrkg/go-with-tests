@@ -1,15 +1,20 @@
+# Download this file:
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
-# in .vimrc add the following
+# in ~/.vimrc add the following:
 
 call plug#begin('~/.vim/plugged')
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 call plug#end()
 
-:PlugInstall
 
+
+# Open some file with vim and run the following commands in EXECUTE mode:
+
+:PlugInstall
 :GoInstallBinaries
+
 
 let g:go_highlight_types = 1
 let g:go_highlight_fields = 1
