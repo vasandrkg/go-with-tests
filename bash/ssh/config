@@ -1,4 +1,7 @@
 # Do not allow to disconnect from the remote ssh  session
+# Put this "config" file at ~/.ssh/config
+
+# Do not allow ssh connection to disconnect
 Host *
     ServerAliveInterval 60
     ServerAliveCountMax 3
