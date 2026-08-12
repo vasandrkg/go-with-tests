@@ -42,7 +42,7 @@ set showmode
 set laststatus=2
 set statusline=%f\ %l,%c
 
-
+colorscheme desert
 " highlight StatusLine ctermfg=0 ctermbg=3 guifg=#000000 guibg=#ffcc00
 highlight StatusLine ctermfg=0 ctermbg=2 guifg=#000000 guibg=#00ff00
 
