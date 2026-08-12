@@ -3,8 +3,9 @@
 
 # Do not allow ssh connection to disconnect
 Host *
-    ServerAliveInterval 60
-    ServerAliveCountMax 3
+    ServerAliveInterval 30
+    ServerAliveCountMax 6
+    TCPKeepAlive yes
 
 # Munich. My EliteBook NoteBook Ubuntu 22.04 Linux Machine
 Host munich
